@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var enterNameTextfield: UITextField!
+    @IBOutlet weak var enterMessageTextfield: UITextField!
+    
+    @IBAction func sendMailButtonPressed(sender: UIButton) {
+        messageLabel.hidden = false
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
