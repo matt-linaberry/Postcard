@@ -95,13 +95,22 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ly5-ag-QXS"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4Y-Aj-Bdc">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bf-ta-yyR">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="83" width="368" height="102"/>
+                                    <rect key="frame" x="16" y="151" width="368" height="29"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4Y-Aj-Bdc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="83" width="368" height="60"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -112,6 +121,7 @@
                                 <exclude reference="kfq-TH-8Ap"/>
                                 <exclude reference="kI6-UM-eo6"/>
                                 <exclude reference="CfQ-Ub-QV3"/>
+                                <exclude reference="2bf-ta-yyR"/>
                                 <exclude reference="y4Y-Aj-Bdc"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="kfq-TH-8Ap"/>
                                 <include reference="kI6-UM-eo6"/>
                                 <include reference="CfQ-Ub-QV3"/>
+                                <include reference="2bf-ta-yyR"/>
                                 <include reference="y4Y-Aj-Bdc"/>
                             </mask>
                         </variation>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextfield" destination="kfq-TH-8Ap" id="xMx-bf-0z9"/>
                         <outlet property="mailButton" destination="CfQ-Ub-QV3" id="Kx5-pW-ZWB"/>
                         <outlet property="messageLabel" destination="y4Y-Aj-Bdc" id="xXo-Ri-zFc"/>
+                        <outlet property="nameLabel" destination="2bf-ta-yyR" id="kha-KV-56e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
